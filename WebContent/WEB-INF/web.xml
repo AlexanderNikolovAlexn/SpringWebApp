@@ -28,5 +28,15 @@
 		<res-ref-name>jdbc/spring</res-ref-name>
 		<res-type>javax.sql.DataSource</res-type>
 		<res-auth>Container</res-auth>
-	</resource-ref>
+	</resource-ref>	
+	<listener>
+		<listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+	</listener>
+	<context-param>
+		<param-name>contextConfigLocation</param-name>
+		<param-value>
+			classpath:com/samodeika/spring/web/config/dao-context.xml
+			classpath:com/samodeika/spring/web/config/service-context.xml
+		</param-value>
+	</context-param>	
 </web-app>
