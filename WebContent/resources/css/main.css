@@ -15,6 +15,12 @@
 	margin-left: 10px;
 }
 
+.error{
+	font-size: small;
+	color: red;
+	margin-left: 10px;
+}
+
 input[type=text] {
 	width: 250px;
 }
