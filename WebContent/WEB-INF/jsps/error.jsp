@@ -4,9 +4,9 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Insert title here</title>
+<title>Error occurred</title>
 </head>
 <body>
-	Offer created! <a href="${pageContext.request.contextPath}/offers">Click here to view current offers</a>
+An error occurred. Sorry for inconvenience!
 </body>
 </html>
