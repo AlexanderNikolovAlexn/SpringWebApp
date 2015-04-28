@@ -21,6 +21,12 @@
 	margin-left: 10px;
 }
 
+.valid{
+	font-size: small;
+	color: green;
+	margin-left: 10px;
+}
+
 input[type=text] {
 	width: 250px;
 }
