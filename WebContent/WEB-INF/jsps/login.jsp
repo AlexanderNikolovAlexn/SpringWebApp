@@ -30,6 +30,6 @@
 			value="${_csrf.token}" />
 	</form>
 	
-	<p><a href="<c:url value="/newaccount" />">Create new account</a></p>
+	<p><a href="<c:url value = '/newaccount'/>">Create new account</a></p>
 </body>
 </html>

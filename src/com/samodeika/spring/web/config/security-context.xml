@@ -26,6 +26,8 @@
 		<security:intercept-url pattern="/docreate" access="isAuthenticated()" />
 		<security:intercept-url pattern="/offercreated" access="isAuthenticated()" />
 		<security:intercept-url pattern="/" access="permitAll" />
+		<security:intercept-url pattern="/loggedout" access="permitAll" />
+		<security:intercept-url pattern="/logout" access="permitAll" />
 		<security:intercept-url pattern="/newaccount" access="permitAll" />
 		<security:intercept-url pattern="/createaccount" access="permitAll" />
 		<security:intercept-url pattern="/accountcreated" access="permitAll" />
@@ -34,7 +36,9 @@
 		<security:intercept-url pattern="/offers" access="permitAll" />
 		<security:intercept-url pattern="/**" access="denyAll" />
 		<security:form-login login-page="/login" />
+		<security:logout logout-success-url="/loggedout" />
+		
 	</security:http>
-	
+
 	<security:global-method-security secured-annotations="enabled"></security:global-method-security>
 </beans>
