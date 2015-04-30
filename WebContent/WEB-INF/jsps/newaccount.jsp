@@ -53,8 +53,7 @@
 <title>Create Account</title>
 </head>
 <body>
-<fmt:message key='UnmatchedPasswords.user.password' />
-<fmt:message key="MatchedPasswords.user.password" />
+
 	<h2>Create new account</h2>
 
 
