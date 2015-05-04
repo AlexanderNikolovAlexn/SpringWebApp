@@ -22,12 +22,6 @@
 		<a href="${pageContext.request.contextPath}/newaccount">Create new
 			account</a>
 	</p>
-	<p>
-		<form action="${logoutUrl}" method="post">
-			<input type="submit" value="Log out" /> <input type="hidden"
-				name="${_csrf.parameterName}" value="${_csrf.token}" />
-		</form>
-	</p>
 
 	<p>
 		<a href="${pageContext.request.contextPath}/loggedout">Log out</a>

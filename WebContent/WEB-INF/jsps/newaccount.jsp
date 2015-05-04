@@ -75,13 +75,13 @@
 			<tr>
 				<td class="label">Password:</td>
 				<td><sf:input class="control" id="password" path="password"
-						name="password" type="text" /> <br /> <sf:errors path="password"
+						name="password" type="password" /> <br /> <sf:errors path="password"
 						cssClass="error"></sf:errors></td>
 			</tr>
 			<tr>
 				<td class="label">Confirm password:</td>
 				<td><input class="control" id="confirmpass" name="confirmpass"
-					type="text" />
+					type="password" />
 					<div id="matchpass"></div></td>
 			</tr>
 			<tr>

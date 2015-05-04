@@ -49,7 +49,7 @@ public class LoginController {
 		}
 
 		user.setEnabled(true);
-		user.setAuthority("user");
+		user.setAuthority("ROLE_USER");
 
 		try {
 			usersService.create(user);
